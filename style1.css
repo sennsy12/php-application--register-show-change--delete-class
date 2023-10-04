@@ -1,0 +1,86 @@
+body {
+    background: #6e7a4d;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #203311;
+        color: #97B1A6;
+        font-size: 27px;
+      }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+    /* Meny */
+    .meny {
+        margin: 5px;
+        padding: 5px;
+        width: 200px;
+        background-color: #97b1a6;
+        height: 100%;
+        overflow: auto;
+        position: fixed;
+        border-radius: 10px;
+      }
+      
+    /* Meny-linker */
+    .meny a {
+        display: block;
+        color: #f5f4fa;
+        padding: 5px;
+        text-decoration: none;
+      }
+    .meny p {
+        display: block;
+        padding: 5px 16px;
+        color: #344e20;
+      }
+      
+      
+    .meny a.active {
+        background-color: #6e7a4d;
+        color: white;
+        border-radius: 6px;
+      }
+      
+    .meny a:hover:not(.active) {
+        background-color: #374929;
+        border-radius: 6px;
+      }
+      
+    
+    div.innhold {
+        margin: 0 0 0 13em; 
+        padding: 3px 12px;
+        height: 400px;
+        text-align: center;
+
+      }
+
+
+
+	  .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #203311;
+        color: #c6f8e3;
+        text-align: center;
+      }
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
